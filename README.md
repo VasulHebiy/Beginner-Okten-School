@@ -4,7 +4,7 @@ Structure:
 ```
 Beginner-Okten-School
 └─ HTML
-   ├─ Homework – all homework
+   ├─ Homework – html/css homework
    ├─ Classwork – class works
    └─ Consultations – notes and materials from consultations
 ```
