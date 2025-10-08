@@ -1,78 +1,66 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("fonts/Roboto-Regular.ttf") format("truetype");
-  font-weight: 400;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  height: 100vh;
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
-  margin: 0 0 2vh 0;
+  font-size: 30px;
+  text-align: center;
+  margin: 1% 0;
 }
 
-.container {
+h2 {
+  text-align: center;
+}
+.header {
+  height: 40%;
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.block-img {
+  height: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-block {
+  width: 30%;
   display: flex;
   justify-content: center;
 }
 
-.main-block {
+.header-block img {
+  width: 40%;
+}
+
+.actors-wrapper {
+  height: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.actors-block {
   width: 20%;
-  height: 30vh;
-  margin-bottom: 5vh;
-  background-color: lightgreen;
+  height: 100%;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  justify-content: center;
 }
 
-.main-block > h2 {
-  margin: 20% auto 0 auto;
+.actors-block img {
+  height: 50%;
 }
 
-.main-block-img {
-  width: 20%;
-  height: 30vh;
-  margin-bottom: 5vh;
-  background-image: url("img/batman-h1.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.main-block-actor {
-  width: 15%;
-  height: 35vh;
-  margin: 0 auto 0 auto;
-  background-color: lightgreen;
-  padding-top: 1%;
-}
-
-.card-actor-img {
-  height: 40%;
-  width: 70%;
-  margin: 0 auto 0 auto;
-  background-size: cover;
-  background-position: center;
-}
-
-.main-block-actor > p {
-  width: 70%;
-  margin: 9% auto 0 auto;
-  text-align: center;
-  font-size: 17px;
-}
-
-.card-actor-text {
-  width: 80%;
-  text-align: center;
-  margin: 2% auto 0 auto;
+.text-wrapper h3,
+p {
+  background: lightgrey;
 }

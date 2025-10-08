@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fonts */
+
+.rubik {
+  font-family: "Rubik Pixels", system-ui;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.sedgwick {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dancing {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fjalla {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.indie {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  height: 100vh;
+}
+
+.wrapper {
+  height: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.block {
+  width: 16%;
+  height: 90%;
+  background: lightsalmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+}
