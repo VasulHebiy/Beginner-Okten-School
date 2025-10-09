@@ -1,0 +1,35 @@
+body {
+  margin: 2%;
+}
+
+header {
+  height: 60vh;
+  background-color: lightblue;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0;
+}
+
+section {
+  height: 50vh;
+  width: 32%;
+  background-color: rgb(152, 209, 228);
+}
+
+footer {
+  height: 90vh;
+  background-color: lightblue;
+}
+
+header,
+section,
+footer {
+  color: white;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
