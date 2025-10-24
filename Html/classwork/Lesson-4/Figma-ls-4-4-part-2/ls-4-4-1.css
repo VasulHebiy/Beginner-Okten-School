@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  height: 21.844vh;
+  background-color: #d9d9d9;
+}
+
+main {
+  height: 56.312vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #a4a4a4;
+}
+
+main aside {
+  width: 27vw;
+  background-color: #c0bdbd;
+  height: 100%;
+}

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  height: 22vh;
+  background-color: #d9d9d9;
+}
+
+main {
+  height: 56vh;
+  display: flex;
+}
+
+main aside {
+  width: 27vw;
+  height: 100%;
+  background-color: #c0bdbd;
+}
+
+main div {
+  display: flex;
+  flex-direction: column;
+}
+
+main section {
+  width: 46vw;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-top {
+  background-color: #827878;
+}
+
+.section-bottom {
+  background-color: #b7adad;
+}

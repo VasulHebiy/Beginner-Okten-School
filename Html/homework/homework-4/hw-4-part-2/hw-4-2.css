@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.inter-400 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header,
+footer {
+  height: 22vh;
+  background-color: #8d8484;
+}
+
+footer {
+  background-color: #bdbdbd;
+}
+
+main {
+  height: 56vh;
+  display: flex;
+}
+
+main section {
+  width: 73.5vw;
+  height: 18.7vh;
+}
+
+.section__content-1 {
+  background-color: #776969;
+}
+
+.section__content-2 {
+  background-color: #643030;
+}
+
+.section__content-3 {
+  background-color: #441818;
+}
+
+.main__spam {
+  height: 100%;
+  width: 26.5vw;
+}
+
+.main__spam aside {
+  height: 50%;
+}
+
+.spam-1 {
+  background-color: #937575;
+}
+
+.spam-2 {
+  background-color: #644c4c;
+}
+
+main p {
+  color: white;
+}
+
+aside,
+section,
+footer,
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

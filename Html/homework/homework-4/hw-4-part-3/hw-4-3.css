@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ----- nav ----- */
+
+nav {
+  height: 4.476vh;
+  background-color: #d9d9d9;
+}
+
+/* ----- main ----- */
+
+main {
+  height: 73.679vh;
+  display: flex;
+}
+
+section {
+  width: 59.375vw;
+  background-color: #a4a4a4;
+}
+
+main div {
+  width: 40.625vw;
+  height: 73.679vh;
+}
+
+.main__aside-top {
+  height: 54%;
+  background-color: #7f7a7a;
+}
+
+.main__aside-bottom {
+  height: 46%;
+  background-color: #615050;
+}
+
+/* ----- footer -----  */
+
+footer {
+  height: 21.845vh;
+}
+
+.footer__block-top {
+  height: 45.9%;
+  background-color: #d9d9d9;
+}
+
+.footer__block-bottom {
+  height: 54.1%;
+  background-color: #afa9a9;
+}
